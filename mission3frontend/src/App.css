@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.input-container,
+.response-input {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.responses-container,
+.feedback {
+  margin-top: 20px;
+}
